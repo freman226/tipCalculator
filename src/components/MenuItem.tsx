@@ -1,18 +1,17 @@
-import {menuItems} from "../data/db"
+import type { MenuItem } from "../types"
 
-export default function MenuItem() {
+type MenuItemProps = {
+    item: MenuItem
+}
+
+export default function MenuItem({item}: MenuItemProps) {
 
     return (
-    <div className="p-5">
-        {menuItems.map(item => (
-            <div key={item.id} className="flex justify-between w-full">
+    <button 
+        className="border-2 border-blue-500 hover:bg-blue-200 w-full p-3 my-2 flex justify-between rounded-2xl">
+            
                 <p>{item.name}</p>
-                <p>{item.price}</p>
-
-            </div>
-            )
-         )}
-        <p></p>
-    </div>
+                <p className="font-black">{item.price}</p>
+    </button>
   )
 }

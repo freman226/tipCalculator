@@ -1,11 +1,9 @@
-import { useState } from 'react'
 import {menuItems} from "./data/db"
-
+import useOrder from "./hooks/useOrder"
 import MenuItem from './components/MenuItem';
 
 function App() {
-
-  const [test, setTest] = useState(true);
+  const {addItem} = useOrder();
   return (
     <>
       <header className='bg-blue-500 py-5'>     
@@ -21,6 +19,7 @@ function App() {
                 <MenuItem      
                   key={item.id}
                   item={item}
+                  addItem={addItem}
                 />
               ))
             }

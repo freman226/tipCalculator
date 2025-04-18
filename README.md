@@ -1,8 +1,6 @@
 <h1 align="center">Tip Calculator</h1>
 
-<div align="center">
-   Solution for a challenge from  <a href="http://devchallenges.io" target="_blank">Devchallenges.io</a>.
-</div>
+
 
 <div align="center">
   <h3>
@@ -14,5 +12,6 @@
       Preview
     </a>
   </h3>
+   ![Image](https://github.com/user-attachments/assets/bb151334-ea9f-4722-b833-0b9d015728a3)
 </div>
 ```

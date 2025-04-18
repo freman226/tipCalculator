@@ -12,6 +12,6 @@
       Preview
     </a>
   </h3>
-   ![Image](https://github.com/user-attachments/assets/bb151334-ea9f-4722-b833-0b9d015728a3)
+  <img width="437" alt="Preview" src="https://github.com/user-attachments/assets/bb151334-ea9f-4722-b833-0b9d015728a3">
 </div>
 ```
